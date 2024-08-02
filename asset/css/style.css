@@ -38,10 +38,11 @@ header{
     font-weight: 500;
     color: rgb(36, 35, 35);
  }
- button { margin-bottom: 5%;
+ button {padding: 2%;
+     margin-bottom: 5%;
     margin-top: 5%;
      color: aliceblue;
-     font-size: large;
+     font-weight: 700;
      background-color: #e22d0e;
      border-radius: 5px;
      border-color: #e22d0e;
@@ -73,16 +74,16 @@ header{
 }
 .epicode-garantisce>h1{ 
     line-height: 50px;
-    padding: 3%;
+    padding: 5%;
     font-weight: 700;
     font-size: 30px;
 }
-.epicode-garantisce>h1+p {
-    line-height: 50px;
+.epicode-garantisce>h1+p { padding-bottom: 5%;
+    line-height: 30px;
     font-style: italic;
 }
 .epicode-garantisce>h1+p+p { font-size: large;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .img >h3 { font-weight: 800;
@@ -96,7 +97,36 @@ header{
 .img > img { 
  width: 100%;
 }
+footer {
+    line-height: 1.65;
+    padding: 10%;
+    font-weight: 500;
+    text-align: center;
+    background-color: #25a2c3;
+    background-size: cover;
+}
 
-footer {color: white;
+footer>h1 {font-size: 25px;
+     padding-bottom: 5%;
+    font-weight: 700;
+    line-height: 20px;
+    color:white ;
 
+}
+footer>a ,footer>i+p  {
+    color: #c8e7f0;
+}
+footer>i {
+     padding: 1%;
+    font-size: 12px;
+    color: #c8e7f0;
+}
+.line {margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    border-top:  1px solid #c8e7f0;
+}
+footer>p , footer>p>a { color: #c8e7f0;
+    font-size: 14px;
 }
